@@ -1,0 +1,312 @@
+body {
+    margin: 0;
+    font-family: 'WorkSans', sans-serif;
+    background-color: #0a0a0a;
+    color: white;
+  }
+  
+  .portada {
+    background-image: url("imagenes/WhatsApp%20Image%202025-05-11%20at%205.20.16%20PM.jpeg");
+    background-size: cover;
+    background-position: center top;
+    background-repeat: no-repeat;
+    text-align: left;
+
+    padding: 100px 20px;
+    min-height: 100vh; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+  }
+  
+  .portada h1 {
+    font-size: 3rem;
+    font-weight: 800;
+    margin-bottom: 20px;
+    text-align: left;
+  }
+  
+  .portada .verde {
+    color: #c7ff00;
+  }
+  
+  .portada p {
+    font-size: 1.4rem;
+    margin-bottom: 30px;
+    text-align: left;
+  }
+  
+  .boton {
+    background-color: #0E297C;
+    color: #c7ff00;
+    padding: 12px 28px;
+    border-radius: 25px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.1rem;
+    max-width: 8%;
+    
+  }
+  .fondo-doble {
+    position: relative;
+    background: url('imagenes/fondo.jpg') center top no-repeat;
+    background-size: cover;
+    color: white;
+    padding: 60px 20px;
+    text-align: center;
+  }
+  
+  /* Títulos */
+  .fondo-doble h1 {
+    color: #E1FE04;
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+  }
+  
+  .fondo-doble h3 {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+  }
+  
+  /* ¿CÓMO FUNCIONA? */
+  .contenido-funciona {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 40px;
+    flex-wrap: wrap;
+    margin-top: 40px;
+    text-align: left;
+  }
+  
+  .imagen-globos {
+    width: 200px;
+    max-width: 100%;
+  }
+  
+  .texto-funciona {
+    max-width: 500px;
+  }
+  
+  .texto-funciona p {
+    font-size: 1rem;
+    line-height: 1.6;
+    margin: 12px 0;
+  }
+  
+  .amarillo {
+    color: #E1FE04;
+    font-weight: bold;
+  }
+  
+  /* Plantas decorativas */
+  .plantas-funciona {
+    display: flex;
+    justify-content: space-around;
+    max-width: 400px;
+    margin: 40px auto 0;
+  }
+  
+  .plantas-funciona img {
+    width: 70px;
+    height: auto;
+  }
+  
+  /* ¿CUÁL ES EL PLAN? */
+  .plan {
+    margin-top: 80px;
+  }
+  
+  .cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 40px;
+  }
+  
+  .card {
+    background-color: #003366;
+    border-radius: 25px;
+    padding: 40px 30px;
+    width: 280px;
+    height: 320px; /* más altas */
+    box-shadow: 0 0 40px rgba(37, 130, 212, 0.8); /* sombra más fuerte */
+    text-align: center;
+    transition: transform 0.3s ease;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  
+  .card:hover {
+    transform: scale(1.05);
+  }
+  
+  .card img {
+    width: 60px;
+    height: auto;
+    margin-bottom: 20px;
+  }
+  
+  .card p {
+    font-size: 1.25rem;
+    line-height: 1.7;
+    color: white;
+    margin: 0;
+    max-width: 240px;
+  }
+  
+  body {
+  background-color: #f3f3f3; /* tu fondo original */
+  margin: 0;
+  font-family: sans-serif;
+}
+
+.imagen-pantalla {
+  width: 100%;
+  height: 100vh; /* alto igual a la pantalla */
+  background-image: url("imagenes/WhatsApp\ Image\ 2025-05-11\ at\ 5.20.18\ PM.jpeg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white; /* o el color que se vea sobre la imagen */
+  text-align: center;
+  padding: 20px;
+}
+
+.contenido-normal {
+  padding: 60px;
+  background-color: #f3f3f3; /* mismo fondo que el body */
+}
+.ganadores {
+    padding: 60px 20px;
+    background-image: url('imagenes/fondo.jpg');
+    background-size: cover;       /* hace que ocupe todo */
+    background-repeat: no-repeat; /* evita que se repita */
+    background-position: center;  /* centra la imagen */
+    color: white;
+  }
+  
+  
+  
+  .ganadores h2 {
+    color: #E1FE04;
+    font-size: 2rem;
+    margin-bottom: 30px;
+  }
+  
+  .ganadores {
+    padding: 60px 20px;
+    background-color: black;
+    color: white;
+    text-align: left;
+  }
+  
+  .ganadores h2 {
+    color: #E1FE04;
+    font-size: 2rem;
+    margin-bottom: 30px;
+  }
+  
+  .grilla-ganadores {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 40px;
+    max-width: 1000px;
+    margin: 0 auto;
+  }
+  
+  .testimonio {
+    background-color: transparent;
+  }
+  
+  .testimonio img {
+    width: 60%;
+    border-radius: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .testimonio p {
+    font-size: 1rem;
+    line-height: 1.5;
+  }
+  .formulario {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 60px 20px;
+  }
+  
+  .formulario h2 {
+    color: #E1FE04;
+    font-size: 1.5rem;
+    margin-bottom: 30px;
+  }
+  
+  /* Polaroid como fondo */
+  .polaroid {
+    background-image: url('imagenes/Ca7riel\ y\ Paco\ Amoroso\ Tiny\ Desk.jpg'); /* ← poné acá la imagen real */
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 300px;
+    height: 400px;
+    margin: 0 auto;
+    padding: 60px 30px 80px; /* espacio para contenido */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  /* Estilo del formulario */
+  form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 100%;
+    color: white;
+  }
+  
+  form label {
+    font-size: 0.9rem;
+    margin-bottom: 5px;
+    text-align: left;
+  }
+  
+  form input,
+  form textarea {
+    background-color: rgba(255, 255, 255, 0.9);
+    border: none;
+    border-radius: 5px;
+    padding: 8px;
+    margin-bottom: 15px;
+    font-family: inherit;
+    font-size: 0.9rem;
+    resize: none;
+  }
+  
+  form textarea {
+    height: 60px;
+  }
+  
+  form button {
+    background-color: #0029ff;
+    color: white;
+    border: none;
+    padding: 10px;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s;
+  }
+  
+  form button:hover {
+    background-color: #0019aa;
+  }
+  
